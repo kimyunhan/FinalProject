@@ -1,5 +1,14 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: 82105
+=======
+<<<<<<< HEAD
+Built-By: xsw07
+>>>>>>> 3cf46058be2628c58cea932cbb1dfa428a3d0199
 Build-Jdk: 1.8.0_201
+=======
+Built-By: samsung
+Build-Jdk: 1.8.0_211
+>>>>>>> 51ab98e25d93db9c844de5dcf2b778fa09c0de0b
 Created-By: Maven Integration for Eclipse
 
