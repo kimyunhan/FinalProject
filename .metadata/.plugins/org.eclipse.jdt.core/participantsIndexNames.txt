@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\kim\Documents\FinalProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\504307985.index
-\InsaWorld\src\main\java
