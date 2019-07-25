@@ -15,6 +15,8 @@
 	<a href="loginform.do">login....</a><p style="font-size:30px">&#128540;</p>
 	<br/>
 	<a href="geolocation.do">위치테스트</a>
+	
+	<a href="testtest.do">테스트</a>
 
 	
 </body>

@@ -49,6 +49,10 @@ public class HomeController {
 	public String geo() {
 		return "geotest";
 	}
+	@RequestMapping("/testtest.do")
+	public String testtest() {
+		return "testtest";
+	}
 	
 
 	@RequestMapping("/list.do")
@@ -130,10 +134,10 @@ public class HomeController {
 	public Map<String, Boolean> login(String id, String pw, HttpSession session){
 		
 		/*
-		 * @ResponsBody : java객체를 response 객체에 binding
-		 * ? binding : 메서드와 객체를 묶어놓은 것
+		 * @ResponsBody : java媛앹껜瑜� response 媛앹껜�뿉 binding
+		 * ? binding : 硫붿꽌�뱶�� 媛앹껜瑜� 臾띠뼱�넃�� 寃�
 		 * ->
-		 * @RequestBody : request객체로 넘어오는 데이터를 java 객체
+		 * @RequestBody : request媛앹껜濡� �꽆�뼱�삤�뒗 �뜲�씠�꽣瑜� java 媛앹껜
 		 */
 		System.out.println("------------------------------------------------");
 		
