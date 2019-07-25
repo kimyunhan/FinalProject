@@ -1,24 +1,24 @@
-spring legacy, mvc project, top-package 설정
+spring legacy, mvc project, top-package �꽕�젙
 1.pom.xml - ojdbc6, mybatis, mybatis-spring, commons-dbcp, spring-orm
 2.web.xml - *.do, filter
 3.WEB-INF/spring/sqls/test.sql
 4.src/main/resources/properties/db.properties
 5.src/main/resources/sqls/mapper.xml
 6.WEB-INF/spring/sqls/config.xml
-7.(spring bean configuration)applicationContext.xml // 공통적으로 전부 사용 할 수 있기 때문이다.
+7.(spring bean configuration)applicationContext.xml // 怨듯넻�쟻�쑝濡� �쟾遺� �궗�슜 �븷 �닔 �엳湲� �븣臾몄씠�떎.
 8.dto, dao, biz (config, mapper, controller, ...)
 =================================================================
 <AOP>
 9.pom.xml - aspectjweaver, aspectjrt
 10.com.my.mvc.common.aop(LogAop.java)
 11.WEB-INF/spring/appServlet/aop-context.xml
-12.web.xml에 aop-context 추가
+12.web.xml�뿉 aop-context 異붽�
 13.src/main/resources log4j.xml
 =================================================================
 <Filter>
 (14.pom.xml - commons-lang3)
 15.com.my.mvc.common.filter(LogFilter.java.impl javax.servlet.Filter)
-16.web.xml에서 filter 적용
+16.web.xml�뿉�꽌 filter �쟻�슜
 =================================================================
 <Login>
 17.pom.xml - jackson-core, jackson-mapper
@@ -31,3 +31,4 @@ spring legacy, mvc project, top-package 설정
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.js"></script>
 <script type="text/javascript"></script>
+src/main/resources/db.properties 아이디비번 수정해주세요 
